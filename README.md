@@ -8,7 +8,7 @@ Projeto destinado a criação de um site para compra e venda e bebidas, bem como
 
 <details>
   <summary>
-    <strong>👨‍💻Proposta desenvolvida pela Trybe</strong>
+    <strong>Proposta desenvolvida pela Trybe</strong>
   </summary><br>
 
   **Neste projeto, seu grupo deve desenvolver um app de delivery para uma distribuidora de bebidas. Veja abaixo o contexto da entrega que deve ser feita:**
@@ -29,7 +29,7 @@ Projeto destinado a criação de um site para compra e venda e bebidas, bem como
 
 <details>
   <summary>
-    <strong>🪛 Scripts relevantes do <code>package.json</code> principal</strong>
+    <strong>Scripts relevantes do <code>package.json</code> principal</strong>
   </summary><br>
 
   Utilizamos o gerenciador de processos `pm2`.
@@ -57,7 +57,7 @@ Projeto destinado a criação de um site para compra e venda e bebidas, bem como
 
 <details>
   <summary>
-    <strong>🏦 Banco de dados e Sequelize</strong>
+    <strong>Banco de dados e Sequelize</strong>
   </summary><br>
 
   ## Banco de dados
