@@ -36,6 +36,8 @@ Projeto destinado a criação de um site para compra e venda e bebidas, bem como
 
   **São os scripts da raiz do projeto (`./package.json`) e não das aplicações individuais `./front-end/package.json` e `./back-end/package.json`**:
 
+  **Observação**: Arquivos de configuração foram gerados durante o curso da Trybe e aproveitados pelo grupo no deselvovimento do projeto.
+
   - `start`: Limpa as portas `3000` e `3001` e simula a inicialização no avaliador. Também prepara o campo rodando o `Sequelize` para restaurar o **banco de dados de testes** (final `-test`) e sobe a aplicação com `pm2` em modo `fork` (uma instância para cada aplicação). Nesse modo, as alterações não são assistidas;
     - *uso (na raiz do projeto): `npm start`*
 
