@@ -13,8 +13,7 @@ Com: Alvaro Guilherme, Arthur Coelho, Matheus Araujo, Otavio Azevedo e Thiago Ma
     <strong>Proposta desenvolvida pela Trybe</strong>
   </summary><br>
 
-  **Neste projeto, seu grupo deve desenvolver um app de delivery para uma distribuidora de bebidas. Veja abaixo o contexto da entrega que deve ser feita:**
-
+  **Neste projeto, o grupo desenvolveu um app de delivery para uma distribuidora de bebidas.**
 
   - Ter acesso via login: Para todos (Clientes, vendedores e administradores), cada um sendo direcionado a sua respectiva tela de usuário. 
   - Fazer a comunicação entre clientes e pessoas vendedoras: Ao que o cliente realiza o pedido, o vendedor aprova a compra e a coloca para a entrega. O comprador por fim, sinaliza quando a entrega for realizada.
