@@ -2,6 +2,8 @@
 
 Projeto destinado a criação de um site para compra e venda e bebidas, bem como acompanhamento e gerenciamento de sua entrega. Foi realizado em grupo durante o curso de Back-end da Trybe. 
 
+Com: Alvaro Guilherme, Arthur Coelho, Matheus Araujo, Otavio Azevedo e Thiago Maia
+
 ---
 
 # Contexto de Desenvolvimento
@@ -13,16 +15,10 @@ Projeto destinado a criação de um site para compra e venda e bebidas, bem como
 
   **Neste projeto, seu grupo deve desenvolver um app de delivery para uma distribuidora de bebidas. Veja abaixo o contexto da entrega que deve ser feita:**
 
-  A distribuidora de cervejas da dona Tereza está se informatizando! 🚀 Seu negócio, antes focado em um local específico da cidade, passou a receber uma quantidade massiva de encomendas de outros pontos, expandindo sua atuação via delivery. Isso tudo graças ao excelente preço das bebidas e atendimento da equipe de vendas.
 
-  Agora a distribuidora possui alguns pontos de venda na cidade para agilizar no atendimento dessas áreas. Cada ponto de venda, por sua vez, possui uma pessoa vendedora responsável.
-
-  Como seu antigo sistema, que era um conjunto de planilhas, já não atende a necessidade do negócio por gerar muita manutenção, dona Tereza procurou a sua equipe de pessoas desenvolvedoras com uma ideia de aplicativo que pudesse agilizar a vida de sua equipe e das pessoas que compram seus produtos. O aplicativo precisa:
-
-  - Ter acesso via login: tanto clientes como pessoas vendedoras, assim como a própria dona Tereza, que administra o sistema, devem ter acesso ao aplicativo via login, porém para funções diferentes: (1) A pessoa cliente, que compra da lista de produtos; (2) A pessoa vendedora, que aprova, prepara e entrega; (3) A pessoa administradora, que gerencia quem usa o aplicativo;
-  - Fazer a comunicação entre clientes e pessoas vendedoras: a pessoa cliente faz o pedido via "carrinho de compras" e a pessoa vendedora aprova, prepara e envia esse pedido. Quando o produto é recebido por quem comprou, essa pessoa marca o pedido como "recebido". Ambos devem possuir detalhes sobre seus pedidos;
-  - Se a pessoa cliente faz o pedido, o mesmo deve aparecer para a pessoa vendedora em seu dash de pedidos após a atualização da página. A pessoa cliente, por sua vez, deve ter as informações sobre seu pedido quando sua página for atualizada, ou seja, ter informações se o pedido está sendo preparado ou se já saiu pra entrega;
-
+  - Ter acesso via login: Para todos (Clientes, vendedores e administradores), cada um sendo direcionado a sua respectiva tela de usuário. 
+  - Fazer a comunicação entre clientes e pessoas vendedoras: Ao que o cliente realiza o pedido, o vendedor aprova a compra e a coloca para a entrega. O comprador por fim, sinaliza quando a entrega for realizada.
+  - Pessoas administradores fazem a gestão dos vendedores cadastrados. 
   </details>
 
 # Orientações
@@ -36,7 +32,7 @@ Projeto destinado a criação de um site para compra e venda e bebidas, bem como
 
   **São os scripts da raiz do projeto (`./package.json`) e não das aplicações individuais `./front-end/package.json` e `./back-end/package.json`**:
 
-  **Observação**: Arquivos de configuração foram gerados durante o curso da Trybe e aproveitados pelo grupo no deselvovimento do projeto.
+  **Observação**: Arquivos de configuração foram gerados durante o curso da Trybe e aproveitados pelo grupo no deselvovimento do projeto. Todos os créditos para esses arquivos e comandos são direcionados a Trybe, o resto do desenvolvimento foi feito pelo time de alunos.
 
   - `start`: Limpa as portas `3000` e `3001` e simula a inicialização no avaliador. Também prepara o campo rodando o `Sequelize` para restaurar o **banco de dados de testes** (final `-test`) e sobe a aplicação com `pm2` em modo `fork` (uma instância para cada aplicação). Nesse modo, as alterações não são assistidas;
     - *uso (na raiz do projeto): `npm start`*
@@ -73,7 +69,7 @@ Projeto destinado a criação de um site para compra e venda e bebidas, bem como
     <strong>Versão NODE necessária</strong>
   </summary><br>
 
-- ⚠️ O projeto só instala as dependências com a versão 16 do `node` para evitar conflitos de versão, caso não tenha essa versão instalada você pode usar o [`nvm`](https://github.com/nvm-sh/nvm#installing-and-updating) para fazer o gerenciamento de versões.
+- ⚠️ Versão 16 do `node` deve ser utilizada para a instalação de pacotes. Instale esta versão para evitar problemas de desempenho e funcionamento.
 </details>
 
 
@@ -102,7 +98,7 @@ Projeto destinado a criação de um site para compra e venda e bebidas, bem como
     - (9) Teste de status; 
 
   - **Acesso da Pessoa Administradora**: 
-    - (10) Tela de gerenciamento de usuários (`11admin_manage_users.test`).
+    - (10) Tela de gerenciamento de usuários.
 
   - **Testes da aplicação**: 
     - (11) Testes de cobertura.
